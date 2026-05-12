@@ -1,0 +1,764 @@
+{
+  "runs": [
+    {
+      "method": "PINN20260512-HS",
+      "run": 1,
+      "seed": 42,
+      "runtime_seconds": 6.825847864151001,
+      "run_started_at": "2026-05-12T09:37:41",
+      "run_finished_at": "2026-05-12T09:37:49",
+      "counts": {
+        "train": 63,
+        "val": 22,
+        "test": 22
+      },
+      "split_ratios": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "training": {
+        "best_val_thk_rmse": 509.0133685621626,
+        "best_val_score": 1.268841821122072,
+        "best_epoch": 734,
+        "trained_epochs": 824,
+        "seconds": 6.825847864151001,
+        "device": "cpu",
+        "num_input_features_seen": 8,
+        "num_physical_inputs_used": 8,
+        "use_loader_derived_features": false,
+        "radial_bins": 49,
+        "radial_modes": 4,
+        "hs_ai_strength": 0.45,
+        "loss_weights": {
+          "lambda_thickness": 3.0,
+          "lambda_log_thickness": 0.45,
+          "lambda_range": 0.55,
+          "lambda_rate": 0.35,
+          "lambda_log_rate": 0.15,
+          "lambda_uniformity": 0.05,
+          "lambda_ri": 0.04,
+          "lambda_stress": 0.04,
+          "lambda_closure": 0.02,
+          "lambda_rate_residual": 0.015,
+          "lambda_profile_smooth": 0.02,
+          "lambda_kim_state": 0.01
+        },
+        "uniformity_consistency_tol": 5.0,
+        "uniformity_train_points_used": 63,
+        "state_calibrator": {
+          "enabled": true,
+          "use_val": true,
+          "fit_count": 85,
+          "feature_count": 48,
+          "n_estimators": 700,
+          "max_depth": 3,
+          "mode": "direct",
+          "blend": 1.0,
+          "rate_thickness_blend": 0.0,
+          "range_max_blend": 0.35
+        },
+        "feature_reference": {
+          "pressure": 8.0,
+          "o2": 1800.0,
+          "teos": 1400.0,
+          "he": 3000.0,
+          "time": 33.0,
+          "space": 8.0,
+          "temperature": 400.0,
+          "power": 980.0,
+          "total_flow": 6230.0
+        }
+      }
+    },
+    {
+      "method": "PINN20260512-HS",
+      "run": 2,
+      "seed": 43,
+      "runtime_seconds": 3.8913400173187256,
+      "run_started_at": "2026-05-12T09:38:22",
+      "run_finished_at": "2026-05-12T09:38:27",
+      "counts": {
+        "train": 65,
+        "val": 20,
+        "test": 22
+      },
+      "split_ratios": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "training": {
+        "best_val_thk_rmse": 298.770723653607,
+        "best_val_score": 1.0955409440469386,
+        "best_epoch": 418,
+        "trained_epochs": 508,
+        "seconds": 3.8913400173187256,
+        "device": "cpu",
+        "num_input_features_seen": 8,
+        "num_physical_inputs_used": 8,
+        "use_loader_derived_features": false,
+        "radial_bins": 49,
+        "radial_modes": 4,
+        "hs_ai_strength": 0.45,
+        "loss_weights": {
+          "lambda_thickness": 3.0,
+          "lambda_log_thickness": 0.45,
+          "lambda_range": 0.55,
+          "lambda_rate": 0.35,
+          "lambda_log_rate": 0.15,
+          "lambda_uniformity": 0.05,
+          "lambda_ri": 0.04,
+          "lambda_stress": 0.04,
+          "lambda_closure": 0.02,
+          "lambda_rate_residual": 0.015,
+          "lambda_profile_smooth": 0.02,
+          "lambda_kim_state": 0.01
+        },
+        "uniformity_consistency_tol": 5.0,
+        "uniformity_train_points_used": 65,
+        "state_calibrator": {
+          "enabled": true,
+          "use_val": true,
+          "fit_count": 85,
+          "feature_count": 48,
+          "n_estimators": 700,
+          "max_depth": 3,
+          "mode": "direct",
+          "blend": 1.0,
+          "rate_thickness_blend": 0.0,
+          "range_max_blend": 0.35
+        },
+        "feature_reference": {
+          "pressure": 8.0,
+          "o2": 1800.0,
+          "teos": 1400.0,
+          "he": 3000.0,
+          "time": 31.5,
+          "space": 8.0,
+          "temperature": 400.0,
+          "power": 970.0,
+          "total_flow": 6230.0
+        }
+      }
+    },
+    {
+      "method": "PINN20260512-HS",
+      "run": 3,
+      "seed": 44,
+      "runtime_seconds": 1.7685461044311523,
+      "run_started_at": "2026-05-12T09:38:51",
+      "run_finished_at": "2026-05-12T09:38:54",
+      "counts": {
+        "train": 65,
+        "val": 18,
+        "test": 24
+      },
+      "split_ratios": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "training": {
+        "best_val_thk_rmse": 402.4840253041107,
+        "best_val_score": 0.9357014455298561,
+        "best_epoch": 107,
+        "trained_epochs": 241,
+        "seconds": 1.7685461044311523,
+        "device": "cpu",
+        "num_input_features_seen": 8,
+        "num_physical_inputs_used": 8,
+        "use_loader_derived_features": false,
+        "radial_bins": 49,
+        "radial_modes": 4,
+        "hs_ai_strength": 0.45,
+        "loss_weights": {
+          "lambda_thickness": 3.0,
+          "lambda_log_thickness": 0.45,
+          "lambda_range": 0.55,
+          "lambda_rate": 0.35,
+          "lambda_log_rate": 0.15,
+          "lambda_uniformity": 0.05,
+          "lambda_ri": 0.04,
+          "lambda_stress": 0.04,
+          "lambda_closure": 0.02,
+          "lambda_rate_residual": 0.015,
+          "lambda_profile_smooth": 0.02,
+          "lambda_kim_state": 0.01
+        },
+        "uniformity_consistency_tol": 5.0,
+        "uniformity_train_points_used": 64,
+        "state_calibrator": {
+          "enabled": true,
+          "use_val": true,
+          "fit_count": 83,
+          "feature_count": 48,
+          "n_estimators": 700,
+          "max_depth": 3,
+          "mode": "direct",
+          "blend": 1.0,
+          "rate_thickness_blend": 0.0,
+          "range_max_blend": 0.35
+        },
+        "feature_reference": {
+          "pressure": 8.0,
+          "o2": 1800.0,
+          "teos": 1400.0,
+          "he": 3000.0,
+          "time": 33.0,
+          "space": 8.0,
+          "temperature": 400.0,
+          "power": 980.0,
+          "total_flow": 6250.0
+        }
+      }
+    },
+    {
+      "method": "PINN20260512-HS",
+      "run": 4,
+      "seed": 45,
+      "runtime_seconds": 3.0142626762390137,
+      "run_started_at": "2026-05-12T09:39:30",
+      "run_finished_at": "2026-05-12T09:39:34",
+      "counts": {
+        "train": 66,
+        "val": 20,
+        "test": 21
+      },
+      "split_ratios": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "training": {
+        "best_val_thk_rmse": 1183.666179714534,
+        "best_val_score": 2.545464735095331,
+        "best_epoch": 316,
+        "trained_epochs": 406,
+        "seconds": 3.0142626762390137,
+        "device": "cpu",
+        "num_input_features_seen": 8,
+        "num_physical_inputs_used": 8,
+        "use_loader_derived_features": false,
+        "radial_bins": 49,
+        "radial_modes": 4,
+        "hs_ai_strength": 0.45,
+        "loss_weights": {
+          "lambda_thickness": 3.0,
+          "lambda_log_thickness": 0.45,
+          "lambda_range": 0.55,
+          "lambda_rate": 0.35,
+          "lambda_log_rate": 0.15,
+          "lambda_uniformity": 0.05,
+          "lambda_ri": 0.04,
+          "lambda_stress": 0.04,
+          "lambda_closure": 0.02,
+          "lambda_rate_residual": 0.015,
+          "lambda_profile_smooth": 0.02,
+          "lambda_kim_state": 0.01
+        },
+        "uniformity_consistency_tol": 5.0,
+        "uniformity_train_points_used": 65,
+        "state_calibrator": {
+          "enabled": true,
+          "use_val": true,
+          "fit_count": 86,
+          "feature_count": 48,
+          "n_estimators": 700,
+          "max_depth": 3,
+          "mode": "direct",
+          "blend": 1.0,
+          "rate_thickness_blend": 0.0,
+          "range_max_blend": 0.35
+        },
+        "feature_reference": {
+          "pressure": 8.0,
+          "o2": 1800.0,
+          "teos": 1400.0,
+          "he": 3000.0,
+          "time": 32.5,
+          "space": 8.0,
+          "temperature": 400.0,
+          "power": 980.0,
+          "total_flow": 6230.0
+        }
+      }
+    },
+    {
+      "method": "PINN20260512-HS",
+      "run": 5,
+      "seed": 46,
+      "runtime_seconds": 2.5169239044189453,
+      "run_started_at": "2026-05-12T09:40:10",
+      "run_finished_at": "2026-05-12T09:40:14",
+      "counts": {
+        "train": 68,
+        "val": 21,
+        "test": 18
+      },
+      "split_ratios": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "training": {
+        "best_val_thk_rmse": 474.54581904701257,
+        "best_val_score": 1.0250116397712057,
+        "best_epoch": 242,
+        "trained_epochs": 332,
+        "seconds": 2.5169239044189453,
+        "device": "cpu",
+        "num_input_features_seen": 8,
+        "num_physical_inputs_used": 8,
+        "use_loader_derived_features": false,
+        "radial_bins": 49,
+        "radial_modes": 4,
+        "hs_ai_strength": 0.45,
+        "loss_weights": {
+          "lambda_thickness": 3.0,
+          "lambda_log_thickness": 0.45,
+          "lambda_range": 0.55,
+          "lambda_rate": 0.35,
+          "lambda_log_rate": 0.15,
+          "lambda_uniformity": 0.05,
+          "lambda_ri": 0.04,
+          "lambda_stress": 0.04,
+          "lambda_closure": 0.02,
+          "lambda_rate_residual": 0.015,
+          "lambda_profile_smooth": 0.02,
+          "lambda_kim_state": 0.01
+        },
+        "uniformity_consistency_tol": 5.0,
+        "uniformity_train_points_used": 68,
+        "state_calibrator": {
+          "enabled": true,
+          "use_val": true,
+          "fit_count": 89,
+          "feature_count": 48,
+          "n_estimators": 700,
+          "max_depth": 3,
+          "mode": "direct",
+          "blend": 1.0,
+          "rate_thickness_blend": 0.0,
+          "range_max_blend": 0.35
+        },
+        "feature_reference": {
+          "pressure": 8.0,
+          "o2": 1800.0,
+          "teos": 1400.0,
+          "he": 3000.0,
+          "time": 31.75,
+          "space": 8.0,
+          "temperature": 400.0,
+          "power": 975.0,
+          "total_flow": 6240.0
+        }
+      }
+    },
+    {
+      "method": "PINN20260512-HS",
+      "run": 6,
+      "seed": 47,
+      "runtime_seconds": 2.745453119277954,
+      "run_started_at": "2026-05-12T09:40:35",
+      "run_finished_at": "2026-05-12T09:40:39",
+      "counts": {
+        "train": 65,
+        "val": 19,
+        "test": 23
+      },
+      "split_ratios": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "training": {
+        "best_val_thk_rmse": 1185.8740447450564,
+        "best_val_score": 1.6852735645213375,
+        "best_epoch": 278,
+        "trained_epochs": 368,
+        "seconds": 2.745453119277954,
+        "device": "cpu",
+        "num_input_features_seen": 8,
+        "num_physical_inputs_used": 8,
+        "use_loader_derived_features": false,
+        "radial_bins": 49,
+        "radial_modes": 4,
+        "hs_ai_strength": 0.45,
+        "loss_weights": {
+          "lambda_thickness": 3.0,
+          "lambda_log_thickness": 0.45,
+          "lambda_range": 0.55,
+          "lambda_rate": 0.35,
+          "lambda_log_rate": 0.15,
+          "lambda_uniformity": 0.05,
+          "lambda_ri": 0.04,
+          "lambda_stress": 0.04,
+          "lambda_closure": 0.02,
+          "lambda_rate_residual": 0.015,
+          "lambda_profile_smooth": 0.02,
+          "lambda_kim_state": 0.01
+        },
+        "uniformity_consistency_tol": 5.0,
+        "uniformity_train_points_used": 65,
+        "state_calibrator": {
+          "enabled": true,
+          "use_val": true,
+          "fit_count": 84,
+          "feature_count": 48,
+          "n_estimators": 700,
+          "max_depth": 3,
+          "mode": "direct",
+          "blend": 1.0,
+          "rate_thickness_blend": 0.0,
+          "range_max_blend": 0.35
+        },
+        "feature_reference": {
+          "pressure": 8.0,
+          "o2": 1800.0,
+          "teos": 1400.0,
+          "he": 3000.0,
+          "time": 31.5,
+          "space": 8.0,
+          "temperature": 400.0,
+          "power": 980.0,
+          "total_flow": 6250.0
+        }
+      }
+    },
+    {
+      "method": "PINN20260512-HS",
+      "run": 7,
+      "seed": 48,
+      "runtime_seconds": 3.9249117374420166,
+      "run_started_at": "2026-05-12T09:41:11",
+      "run_finished_at": "2026-05-12T09:41:16",
+      "counts": {
+        "train": 61,
+        "val": 23,
+        "test": 23
+      },
+      "split_ratios": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "training": {
+        "best_val_thk_rmse": 491.5465548907855,
+        "best_val_score": 1.214917719587654,
+        "best_epoch": 434,
+        "trained_epochs": 524,
+        "seconds": 3.9249117374420166,
+        "device": "cpu",
+        "num_input_features_seen": 8,
+        "num_physical_inputs_used": 8,
+        "use_loader_derived_features": false,
+        "radial_bins": 49,
+        "radial_modes": 4,
+        "hs_ai_strength": 0.45,
+        "loss_weights": {
+          "lambda_thickness": 3.0,
+          "lambda_log_thickness": 0.45,
+          "lambda_range": 0.55,
+          "lambda_rate": 0.35,
+          "lambda_log_rate": 0.15,
+          "lambda_uniformity": 0.05,
+          "lambda_ri": 0.04,
+          "lambda_stress": 0.04,
+          "lambda_closure": 0.02,
+          "lambda_rate_residual": 0.015,
+          "lambda_profile_smooth": 0.02,
+          "lambda_kim_state": 0.01
+        },
+        "uniformity_consistency_tol": 5.0,
+        "uniformity_train_points_used": 61,
+        "state_calibrator": {
+          "enabled": true,
+          "use_val": true,
+          "fit_count": 84,
+          "feature_count": 48,
+          "n_estimators": 700,
+          "max_depth": 3,
+          "mode": "direct",
+          "blend": 1.0,
+          "rate_thickness_blend": 0.0,
+          "range_max_blend": 0.35
+        },
+        "feature_reference": {
+          "pressure": 8.0,
+          "o2": 1800.0,
+          "teos": 1280.0,
+          "he": 3000.0,
+          "time": 33.0,
+          "space": 8.0,
+          "temperature": 400.0,
+          "power": 980.0,
+          "total_flow": 6050.0
+        }
+      }
+    },
+    {
+      "method": "PINN20260512-HS",
+      "run": 8,
+      "seed": 49,
+      "runtime_seconds": 2.025360107421875,
+      "run_started_at": "2026-05-12T09:41:36",
+      "run_finished_at": "2026-05-12T09:41:39",
+      "counts": {
+        "train": 62,
+        "val": 20,
+        "test": 25
+      },
+      "split_ratios": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "training": {
+        "best_val_thk_rmse": 557.3592311068329,
+        "best_val_score": 1.5082684025380784,
+        "best_epoch": 182,
+        "trained_epochs": 272,
+        "seconds": 2.025360107421875,
+        "device": "cpu",
+        "num_input_features_seen": 8,
+        "num_physical_inputs_used": 8,
+        "use_loader_derived_features": false,
+        "radial_bins": 49,
+        "radial_modes": 4,
+        "hs_ai_strength": 0.45,
+        "loss_weights": {
+          "lambda_thickness": 3.0,
+          "lambda_log_thickness": 0.45,
+          "lambda_range": 0.55,
+          "lambda_rate": 0.35,
+          "lambda_log_rate": 0.15,
+          "lambda_uniformity": 0.05,
+          "lambda_ri": 0.04,
+          "lambda_stress": 0.04,
+          "lambda_closure": 0.02,
+          "lambda_rate_residual": 0.015,
+          "lambda_profile_smooth": 0.02,
+          "lambda_kim_state": 0.01
+        },
+        "uniformity_consistency_tol": 5.0,
+        "uniformity_train_points_used": 61,
+        "state_calibrator": {
+          "enabled": true,
+          "use_val": true,
+          "fit_count": 82,
+          "feature_count": 48,
+          "n_estimators": 700,
+          "max_depth": 3,
+          "mode": "direct",
+          "blend": 1.0,
+          "rate_thickness_blend": 0.0,
+          "range_max_blend": 0.35
+        },
+        "feature_reference": {
+          "pressure": 8.0,
+          "o2": 1800.0,
+          "teos": 1400.0,
+          "he": 3000.0,
+          "time": 33.0,
+          "space": 8.0,
+          "temperature": 400.0,
+          "power": 960.0,
+          "total_flow": 6250.0
+        }
+      }
+    },
+    {
+      "method": "PINN20260512-HS",
+      "run": 9,
+      "seed": 50,
+      "runtime_seconds": 1.7584950923919678,
+      "run_started_at": "2026-05-12T09:42:14",
+      "run_finished_at": "2026-05-12T09:42:17",
+      "counts": {
+        "train": 64,
+        "val": 20,
+        "test": 23
+      },
+      "split_ratios": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "training": {
+        "best_val_thk_rmse": 881.628393939306,
+        "best_val_score": 1.6597749829219093,
+        "best_epoch": 125,
+        "trained_epochs": 241,
+        "seconds": 1.7584950923919678,
+        "device": "cpu",
+        "num_input_features_seen": 8,
+        "num_physical_inputs_used": 8,
+        "use_loader_derived_features": false,
+        "radial_bins": 49,
+        "radial_modes": 4,
+        "hs_ai_strength": 0.45,
+        "loss_weights": {
+          "lambda_thickness": 3.0,
+          "lambda_log_thickness": 0.45,
+          "lambda_range": 0.55,
+          "lambda_rate": 0.35,
+          "lambda_log_rate": 0.15,
+          "lambda_uniformity": 0.05,
+          "lambda_ri": 0.04,
+          "lambda_stress": 0.04,
+          "lambda_closure": 0.02,
+          "lambda_rate_residual": 0.015,
+          "lambda_profile_smooth": 0.02,
+          "lambda_kim_state": 0.01
+        },
+        "uniformity_consistency_tol": 5.0,
+        "uniformity_train_points_used": 64,
+        "state_calibrator": {
+          "enabled": true,
+          "use_val": true,
+          "fit_count": 84,
+          "feature_count": 48,
+          "n_estimators": 700,
+          "max_depth": 3,
+          "mode": "direct",
+          "blend": 1.0,
+          "rate_thickness_blend": 0.0,
+          "range_max_blend": 0.35
+        },
+        "feature_reference": {
+          "pressure": 8.0,
+          "o2": 1800.0,
+          "teos": 1400.0,
+          "he": 3000.0,
+          "time": 33.0,
+          "space": 8.0,
+          "temperature": 400.0,
+          "power": 980.0,
+          "total_flow": 6200.0
+        }
+      }
+    },
+    {
+      "method": "PINN20260512-HS",
+      "run": 10,
+      "seed": 51,
+      "runtime_seconds": 1.8079431056976318,
+      "run_started_at": "2026-05-12T09:42:50",
+      "run_finished_at": "2026-05-12T09:42:53",
+      "counts": {
+        "train": 58,
+        "val": 27,
+        "test": 22
+      },
+      "split_ratios": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "training": {
+        "best_val_thk_rmse": 383.02335519521523,
+        "best_val_score": 1.0113043402997184,
+        "best_epoch": 140,
+        "trained_epochs": 241,
+        "seconds": 1.8079431056976318,
+        "device": "cpu",
+        "num_input_features_seen": 8,
+        "num_physical_inputs_used": 8,
+        "use_loader_derived_features": false,
+        "radial_bins": 49,
+        "radial_modes": 4,
+        "hs_ai_strength": 0.45,
+        "loss_weights": {
+          "lambda_thickness": 3.0,
+          "lambda_log_thickness": 0.45,
+          "lambda_range": 0.55,
+          "lambda_rate": 0.35,
+          "lambda_log_rate": 0.15,
+          "lambda_uniformity": 0.05,
+          "lambda_ri": 0.04,
+          "lambda_stress": 0.04,
+          "lambda_closure": 0.02,
+          "lambda_rate_residual": 0.015,
+          "lambda_profile_smooth": 0.02,
+          "lambda_kim_state": 0.01
+        },
+        "uniformity_consistency_tol": 5.0,
+        "uniformity_train_points_used": 57,
+        "state_calibrator": {
+          "enabled": true,
+          "use_val": true,
+          "fit_count": 85,
+          "feature_count": 48,
+          "n_estimators": 700,
+          "max_depth": 3,
+          "mode": "direct",
+          "blend": 1.0,
+          "rate_thickness_blend": 0.0,
+          "range_max_blend": 0.35
+        },
+        "feature_reference": {
+          "pressure": 8.0,
+          "o2": 1800.0,
+          "teos": 1400.0,
+          "he": 3000.0,
+          "time": 33.0,
+          "space": 8.0,
+          "temperature": 400.0,
+          "power": 960.0,
+          "total_flow": 6250.0
+        }
+      }
+    }
+  ],
+  "test_averages": [
+    {
+      "target": "deposition_rate",
+      "MAE": "470.19 ± 208.85",
+      "RMSE": "690.74 ± 312.66",
+      "R2": "0.89 ± 0.09"
+    },
+    {
+      "target": "max_thickness",
+      "MAE": "362.72 ± 136.10",
+      "RMSE": "628.84 ± 277.65",
+      "R2": "0.88 ± 0.11"
+    },
+    {
+      "target": "min_thickness",
+      "MAE": "310.04 ± 108.54",
+      "RMSE": "536.35 ± 209.69",
+      "R2": "0.89 ± 0.11"
+    },
+    {
+      "target": "ri",
+      "MAE": "0.0031 ± 0.0008",
+      "RMSE": "0.0044 ± 0.0011",
+      "R2": "0.25 ± 0.31"
+    },
+    {
+      "target": "stress",
+      "MAE": "46.20 ± 8.77",
+      "RMSE": "64.21 ± 12.78",
+      "R2": "0.29 ± 0.50"
+    },
+    {
+      "target": "thickness",
+      "MAE": "310.58 ± 110.71",
+      "RMSE": "532.05 ± 211.92",
+      "R2": "0.90 ± 0.09"
+    },
+    {
+      "target": "uniformity_1sigma",
+      "MAE": "0.28 ± 0.08",
+      "RMSE": "0.42 ± 0.11",
+      "R2": "0.31 ± 0.38"
+    },
+    {
+      "target": "uniformity_range",
+      "MAE": "0.48 ± 0.13",
+      "RMSE": "0.77 ± 0.21",
+      "R2": "0.28 ± 0.46"
+    }
+  ]
+}

@@ -25,6 +25,7 @@ METHODS = {
     "XGBBaseline": ("scripts.XGBBaseline", "XGBBaseline"),
     "PINN20260414": ("scripts.PINN20260414", "PINN20260414"),
     "PINN20260511": ("scripts.PINN20260511", "PINN20260511"),
+    "PINN20260512-HS": ("scripts.PINN20260512_HS", "PINN20260512-HS"),
 }
 
 
@@ -49,7 +50,7 @@ def build_common_parser():
     parser.add_argument(
         "--method",
         default="XGBBaseline",
-        help="方法名: XGBBaseline、PINN20260414、PINN20260511，多个方法用逗号分隔",
+        help="方法名: XGBBaseline、PINN20260414、PINN20260511、PINN20260512-HS，多个方法用逗号分隔",
     )
     parser.add_argument("--data", default="datasets/PE_TEOS.csv", help="CSV 数据路径")
     parser.add_argument("--runs", type=int, default=1, help="重复运行次数")

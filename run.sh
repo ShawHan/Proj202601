@@ -11,4 +11,4 @@ if ! command -v "$PYTHON_BIN" >/dev/null 2>&1; then
   PYTHON_BIN="/Users/master/miniconda3/envs/use/bin/python"
 fi
 
-"$PYTHON_BIN" main.py --method XGBBaseline,PINN20260414,PINN20260511 --runs 10 --seed 42 --torch-threads 1
+"$PYTHON_BIN" main.py --method XGBBaseline,PINN20260414,PINN20260511,PINN20260512-HS --runs 10 --seed 42 --torch-threads 1
