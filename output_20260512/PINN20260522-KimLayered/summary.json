@@ -1,0 +1,1084 @@
+{
+  "runs": [
+    {
+      "method": "PINN20260517-KimLayered",
+      "run": 1,
+      "seed": 42,
+      "runtime_seconds": 76.4492347240448,
+      "run_started_at": "2026-05-22T15:37:58",
+      "run_finished_at": "2026-05-22T15:39:17",
+      "counts": {
+        "train": 63,
+        "val": 22,
+        "test": 22
+      },
+      "split_ratios": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "training": {
+        "best_val_thk_rmse": 418.71258544921875,
+        "best_val_score": 1.3223574082898593,
+        "best_epoch": 563,
+        "trained_epochs": 653,
+        "seconds": 76.4492347240448,
+        "device": "cuda",
+        "num_input_features_seen": 8,
+        "num_physical_inputs_used": 8,
+        "use_loader_derived_features": false,
+        "radial_bins": 49,
+        "radial_modes": 4,
+        "layered_ai_strength": 0.2,
+        "uniformity_direct_blend": 0.5,
+        "loss_weights": {
+          "lambda_thickness": 3.0,
+          "lambda_log_thickness": 0.45,
+          "lambda_range": 0.55,
+          "lambda_rate": 0.4,
+          "lambda_log_rate": 0.15,
+          "lambda_uniformity": 0.12,
+          "lambda_ri": 0.12,
+          "lambda_stress": 0.1,
+          "lambda_closure": 0.02,
+          "lambda_layer_state": 0.02,
+          "lambda_monotonic": 0.005,
+          "lambda_profile_smooth": 0.02,
+          "lambda_rate_residual": 0.012
+        },
+        "uniformity_consistency_tol": 5.0,
+        "uniformity_train_points_used": 63,
+        "uniformity_weight_mean": 0.9990985989570618,
+        "uniformity_weight_min": 0.9925278425216675,
+        "uniformity_weight_max": 1.0,
+        "state_calibrator": {
+          "enabled": true,
+          "use_val": true,
+          "fit_count": 85,
+          "feature_count": 81,
+          "n_estimators": 700,
+          "max_depth": 3,
+          "mode": "direct",
+          "blend": 1.0,
+          "requested_targets": [
+            "Thickness",
+            "MAX",
+            "MIN",
+            "Deposition_Rate",
+            "Uniformity_Range",
+            "Uniformity_1sigma",
+            "RI",
+            "Stress"
+          ],
+          "fitted_targets": [
+            "Thickness",
+            "MAX",
+            "MIN",
+            "Deposition_Rate",
+            "Uniformity_Range",
+            "Uniformity_1sigma",
+            "RI",
+            "Stress"
+          ],
+          "rate_thickness_blend": 0.0,
+          "range_max_blend": 0.0
+        },
+        "uniformity_raw_xgb": {
+          "enabled": true,
+          "targets": [
+            "Uniformity_Range",
+            "Uniformity_1sigma"
+          ]
+        },
+        "feature_reference": {
+          "pressure": 8.0,
+          "o2": 1800.0,
+          "teos": 1400.0,
+          "he": 3000.0,
+          "time": 33.0,
+          "space": 8.0,
+          "temperature": 400.0,
+          "power": 980.0,
+          "total_flow": 6230.0
+        }
+      }
+    },
+    {
+      "method": "PINN20260517-KimLayered",
+      "run": 2,
+      "seed": 43,
+      "runtime_seconds": 40.23428392410278,
+      "run_started_at": "2026-05-22T15:39:17",
+      "run_finished_at": "2026-05-22T15:40:00",
+      "counts": {
+        "train": 65,
+        "val": 20,
+        "test": 22
+      },
+      "split_ratios": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "training": {
+        "best_val_thk_rmse": 440.6445007324219,
+        "best_val_score": 1.636233969828843,
+        "best_epoch": 352,
+        "trained_epochs": 442,
+        "seconds": 40.23428392410278,
+        "device": "cuda",
+        "num_input_features_seen": 8,
+        "num_physical_inputs_used": 8,
+        "use_loader_derived_features": false,
+        "radial_bins": 49,
+        "radial_modes": 4,
+        "layered_ai_strength": 0.2,
+        "uniformity_direct_blend": 0.5,
+        "loss_weights": {
+          "lambda_thickness": 3.0,
+          "lambda_log_thickness": 0.45,
+          "lambda_range": 0.55,
+          "lambda_rate": 0.4,
+          "lambda_log_rate": 0.15,
+          "lambda_uniformity": 0.12,
+          "lambda_ri": 0.12,
+          "lambda_stress": 0.1,
+          "lambda_closure": 0.02,
+          "lambda_layer_state": 0.02,
+          "lambda_monotonic": 0.005,
+          "lambda_profile_smooth": 0.02,
+          "lambda_rate_residual": 0.012
+        },
+        "uniformity_consistency_tol": 5.0,
+        "uniformity_train_points_used": 65,
+        "uniformity_weight_mean": 0.9989912509918213,
+        "uniformity_weight_min": 0.9925278425216675,
+        "uniformity_weight_max": 0.9999984502792358,
+        "state_calibrator": {
+          "enabled": true,
+          "use_val": true,
+          "fit_count": 85,
+          "feature_count": 81,
+          "n_estimators": 700,
+          "max_depth": 3,
+          "mode": "direct",
+          "blend": 1.0,
+          "requested_targets": [
+            "Thickness",
+            "MAX",
+            "MIN",
+            "Deposition_Rate",
+            "Uniformity_Range",
+            "Uniformity_1sigma",
+            "RI",
+            "Stress"
+          ],
+          "fitted_targets": [
+            "Thickness",
+            "MAX",
+            "MIN",
+            "Deposition_Rate",
+            "Uniformity_Range",
+            "Uniformity_1sigma",
+            "RI",
+            "Stress"
+          ],
+          "rate_thickness_blend": 0.0,
+          "range_max_blend": 0.0
+        },
+        "uniformity_raw_xgb": {
+          "enabled": true,
+          "targets": [
+            "Uniformity_Range",
+            "Uniformity_1sigma"
+          ]
+        },
+        "feature_reference": {
+          "pressure": 8.0,
+          "o2": 1800.0,
+          "teos": 1400.0,
+          "he": 3000.0,
+          "time": 31.5,
+          "space": 8.0,
+          "temperature": 400.0,
+          "power": 970.0,
+          "total_flow": 6230.0
+        }
+      }
+    },
+    {
+      "method": "PINN20260517-KimLayered",
+      "run": 3,
+      "seed": 44,
+      "runtime_seconds": 76.26653957366943,
+      "run_started_at": "2026-05-22T15:40:00",
+      "run_finished_at": "2026-05-22T15:41:20",
+      "counts": {
+        "train": 65,
+        "val": 18,
+        "test": 24
+      },
+      "split_ratios": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "training": {
+        "best_val_thk_rmse": 314.919189453125,
+        "best_val_score": 0.8276722186658122,
+        "best_epoch": 740,
+        "trained_epochs": 740,
+        "seconds": 76.26653957366943,
+        "device": "cuda",
+        "num_input_features_seen": 8,
+        "num_physical_inputs_used": 8,
+        "use_loader_derived_features": false,
+        "radial_bins": 49,
+        "radial_modes": 4,
+        "layered_ai_strength": 0.2,
+        "uniformity_direct_blend": 0.5,
+        "loss_weights": {
+          "lambda_thickness": 3.0,
+          "lambda_log_thickness": 0.45,
+          "lambda_range": 0.55,
+          "lambda_rate": 0.4,
+          "lambda_log_rate": 0.15,
+          "lambda_uniformity": 0.12,
+          "lambda_ri": 0.12,
+          "lambda_stress": 0.1,
+          "lambda_closure": 0.02,
+          "lambda_layer_state": 0.02,
+          "lambda_monotonic": 0.005,
+          "lambda_profile_smooth": 0.02,
+          "lambda_rate_residual": 0.012
+        },
+        "uniformity_consistency_tol": 5.0,
+        "uniformity_train_points_used": 64,
+        "uniformity_weight_mean": 0.9891496896743774,
+        "uniformity_weight_min": 0.3517768979072571,
+        "uniformity_weight_max": 1.0,
+        "state_calibrator": {
+          "enabled": true,
+          "use_val": true,
+          "fit_count": 83,
+          "feature_count": 81,
+          "n_estimators": 700,
+          "max_depth": 3,
+          "mode": "direct",
+          "blend": 1.0,
+          "requested_targets": [
+            "Thickness",
+            "MAX",
+            "MIN",
+            "Deposition_Rate",
+            "Uniformity_Range",
+            "Uniformity_1sigma",
+            "RI",
+            "Stress"
+          ],
+          "fitted_targets": [
+            "Thickness",
+            "MAX",
+            "MIN",
+            "Deposition_Rate",
+            "Uniformity_Range",
+            "Uniformity_1sigma",
+            "RI",
+            "Stress"
+          ],
+          "rate_thickness_blend": 0.0,
+          "range_max_blend": 0.0
+        },
+        "uniformity_raw_xgb": {
+          "enabled": true,
+          "targets": [
+            "Uniformity_Range",
+            "Uniformity_1sigma"
+          ]
+        },
+        "feature_reference": {
+          "pressure": 8.0,
+          "o2": 1800.0,
+          "teos": 1400.0,
+          "he": 3000.0,
+          "time": 33.0,
+          "space": 8.0,
+          "temperature": 400.0,
+          "power": 980.0,
+          "total_flow": 6250.0
+        }
+      }
+    },
+    {
+      "method": "PINN20260517-KimLayered",
+      "run": 4,
+      "seed": 45,
+      "runtime_seconds": 45.529425859451294,
+      "run_started_at": "2026-05-22T15:41:20",
+      "run_finished_at": "2026-05-22T15:42:09",
+      "counts": {
+        "train": 66,
+        "val": 20,
+        "test": 21
+      },
+      "split_ratios": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "training": {
+        "best_val_thk_rmse": 631.9857788085938,
+        "best_val_score": 3.0598661151135564,
+        "best_epoch": 394,
+        "trained_epochs": 484,
+        "seconds": 45.529425859451294,
+        "device": "cuda",
+        "num_input_features_seen": 8,
+        "num_physical_inputs_used": 8,
+        "use_loader_derived_features": false,
+        "radial_bins": 49,
+        "radial_modes": 4,
+        "layered_ai_strength": 0.2,
+        "uniformity_direct_blend": 0.5,
+        "loss_weights": {
+          "lambda_thickness": 3.0,
+          "lambda_log_thickness": 0.45,
+          "lambda_range": 0.55,
+          "lambda_rate": 0.4,
+          "lambda_log_rate": 0.15,
+          "lambda_uniformity": 0.12,
+          "lambda_ri": 0.12,
+          "lambda_stress": 0.1,
+          "lambda_closure": 0.02,
+          "lambda_layer_state": 0.02,
+          "lambda_monotonic": 0.005,
+          "lambda_profile_smooth": 0.02,
+          "lambda_rate_residual": 0.012
+        },
+        "uniformity_consistency_tol": 5.0,
+        "uniformity_train_points_used": 65,
+        "uniformity_weight_mean": 0.9891002774238586,
+        "uniformity_weight_min": 0.3517768979072571,
+        "uniformity_weight_max": 1.0,
+        "state_calibrator": {
+          "enabled": true,
+          "use_val": true,
+          "fit_count": 86,
+          "feature_count": 81,
+          "n_estimators": 700,
+          "max_depth": 3,
+          "mode": "direct",
+          "blend": 1.0,
+          "requested_targets": [
+            "Thickness",
+            "MAX",
+            "MIN",
+            "Deposition_Rate",
+            "Uniformity_Range",
+            "Uniformity_1sigma",
+            "RI",
+            "Stress"
+          ],
+          "fitted_targets": [
+            "Thickness",
+            "MAX",
+            "MIN",
+            "Deposition_Rate",
+            "Uniformity_Range",
+            "Uniformity_1sigma",
+            "RI",
+            "Stress"
+          ],
+          "rate_thickness_blend": 0.0,
+          "range_max_blend": 0.0
+        },
+        "uniformity_raw_xgb": {
+          "enabled": true,
+          "targets": [
+            "Uniformity_Range",
+            "Uniformity_1sigma"
+          ]
+        },
+        "feature_reference": {
+          "pressure": 8.0,
+          "o2": 1800.0,
+          "teos": 1400.0,
+          "he": 3000.0,
+          "time": 32.5,
+          "space": 8.0,
+          "temperature": 400.0,
+          "power": 980.0,
+          "total_flow": 6230.0
+        }
+      }
+    },
+    {
+      "method": "PINN20260517-KimLayered",
+      "run": 5,
+      "seed": 46,
+      "runtime_seconds": 132.8181734085083,
+      "run_started_at": "2026-05-22T15:42:09",
+      "run_finished_at": "2026-05-22T15:44:24",
+      "counts": {
+        "train": 68,
+        "val": 21,
+        "test": 18
+      },
+      "split_ratios": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "training": {
+        "best_val_thk_rmse": 249.8231201171875,
+        "best_val_score": 0.9466453932088069,
+        "best_epoch": 660,
+        "trained_epochs": 740,
+        "seconds": 132.8181734085083,
+        "device": "cuda",
+        "num_input_features_seen": 8,
+        "num_physical_inputs_used": 8,
+        "use_loader_derived_features": false,
+        "radial_bins": 49,
+        "radial_modes": 4,
+        "layered_ai_strength": 0.2,
+        "uniformity_direct_blend": 0.5,
+        "loss_weights": {
+          "lambda_thickness": 3.0,
+          "lambda_log_thickness": 0.45,
+          "lambda_range": 0.55,
+          "lambda_rate": 0.4,
+          "lambda_log_rate": 0.15,
+          "lambda_uniformity": 0.12,
+          "lambda_ri": 0.12,
+          "lambda_stress": 0.1,
+          "lambda_closure": 0.02,
+          "lambda_layer_state": 0.02,
+          "lambda_monotonic": 0.005,
+          "lambda_profile_smooth": 0.02,
+          "lambda_rate_residual": 0.012
+        },
+        "uniformity_consistency_tol": 5.0,
+        "uniformity_train_points_used": 68,
+        "uniformity_weight_mean": 0.9990643858909607,
+        "uniformity_weight_min": 0.9951820373535156,
+        "uniformity_weight_max": 1.0,
+        "state_calibrator": {
+          "enabled": true,
+          "use_val": true,
+          "fit_count": 89,
+          "feature_count": 81,
+          "n_estimators": 700,
+          "max_depth": 3,
+          "mode": "direct",
+          "blend": 1.0,
+          "requested_targets": [
+            "Thickness",
+            "MAX",
+            "MIN",
+            "Deposition_Rate",
+            "Uniformity_Range",
+            "Uniformity_1sigma",
+            "RI",
+            "Stress"
+          ],
+          "fitted_targets": [
+            "Thickness",
+            "MAX",
+            "MIN",
+            "Deposition_Rate",
+            "Uniformity_Range",
+            "Uniformity_1sigma",
+            "RI",
+            "Stress"
+          ],
+          "rate_thickness_blend": 0.0,
+          "range_max_blend": 0.0
+        },
+        "uniformity_raw_xgb": {
+          "enabled": true,
+          "targets": [
+            "Uniformity_Range",
+            "Uniformity_1sigma"
+          ]
+        },
+        "feature_reference": {
+          "pressure": 8.0,
+          "o2": 1800.0,
+          "teos": 1400.0,
+          "he": 3000.0,
+          "time": 31.75,
+          "space": 8.0,
+          "temperature": 400.0,
+          "power": 975.0,
+          "total_flow": 6240.0
+        }
+      }
+    },
+    {
+      "method": "PINN20260517-KimLayered",
+      "run": 6,
+      "seed": 47,
+      "runtime_seconds": 70.95134663581848,
+      "run_started_at": "2026-05-22T15:44:24",
+      "run_finished_at": "2026-05-22T15:45:38",
+      "counts": {
+        "train": 65,
+        "val": 19,
+        "test": 23
+      },
+      "split_ratios": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "training": {
+        "best_val_thk_rmse": 801.0175170898438,
+        "best_val_score": 1.438954599367055,
+        "best_epoch": 590,
+        "trained_epochs": 680,
+        "seconds": 70.95134663581848,
+        "device": "cuda",
+        "num_input_features_seen": 8,
+        "num_physical_inputs_used": 8,
+        "use_loader_derived_features": false,
+        "radial_bins": 49,
+        "radial_modes": 4,
+        "layered_ai_strength": 0.2,
+        "uniformity_direct_blend": 0.5,
+        "loss_weights": {
+          "lambda_thickness": 3.0,
+          "lambda_log_thickness": 0.45,
+          "lambda_range": 0.55,
+          "lambda_rate": 0.4,
+          "lambda_log_rate": 0.15,
+          "lambda_uniformity": 0.12,
+          "lambda_ri": 0.12,
+          "lambda_stress": 0.1,
+          "lambda_closure": 0.02,
+          "lambda_layer_state": 0.02,
+          "lambda_monotonic": 0.005,
+          "lambda_profile_smooth": 0.02,
+          "lambda_rate_residual": 0.012
+        },
+        "uniformity_consistency_tol": 5.0,
+        "uniformity_train_points_used": 65,
+        "uniformity_weight_mean": 0.9989562034606934,
+        "uniformity_weight_min": 0.9953398704528809,
+        "uniformity_weight_max": 0.9999845027923584,
+        "state_calibrator": {
+          "enabled": true,
+          "use_val": true,
+          "fit_count": 84,
+          "feature_count": 81,
+          "n_estimators": 700,
+          "max_depth": 3,
+          "mode": "direct",
+          "blend": 1.0,
+          "requested_targets": [
+            "Thickness",
+            "MAX",
+            "MIN",
+            "Deposition_Rate",
+            "Uniformity_Range",
+            "Uniformity_1sigma",
+            "RI",
+            "Stress"
+          ],
+          "fitted_targets": [
+            "Thickness",
+            "MAX",
+            "MIN",
+            "Deposition_Rate",
+            "Uniformity_Range",
+            "Uniformity_1sigma",
+            "RI",
+            "Stress"
+          ],
+          "rate_thickness_blend": 0.0,
+          "range_max_blend": 0.0
+        },
+        "uniformity_raw_xgb": {
+          "enabled": true,
+          "targets": [
+            "Uniformity_Range",
+            "Uniformity_1sigma"
+          ]
+        },
+        "feature_reference": {
+          "pressure": 8.0,
+          "o2": 1800.0,
+          "teos": 1400.0,
+          "he": 3000.0,
+          "time": 31.5,
+          "space": 8.0,
+          "temperature": 400.0,
+          "power": 980.0,
+          "total_flow": 6250.0
+        }
+      }
+    },
+    {
+      "method": "PINN20260517-KimLayered",
+      "run": 7,
+      "seed": 48,
+      "runtime_seconds": 81.33921098709106,
+      "run_started_at": "2026-05-22T15:45:38",
+      "run_finished_at": "2026-05-22T15:47:03",
+      "counts": {
+        "train": 61,
+        "val": 23,
+        "test": 23
+      },
+      "split_ratios": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "training": {
+        "best_val_thk_rmse": 365.402099609375,
+        "best_val_score": 1.3050507710160069,
+        "best_epoch": 736,
+        "trained_epochs": 740,
+        "seconds": 81.33921098709106,
+        "device": "cuda",
+        "num_input_features_seen": 8,
+        "num_physical_inputs_used": 8,
+        "use_loader_derived_features": false,
+        "radial_bins": 49,
+        "radial_modes": 4,
+        "layered_ai_strength": 0.2,
+        "uniformity_direct_blend": 0.5,
+        "loss_weights": {
+          "lambda_thickness": 3.0,
+          "lambda_log_thickness": 0.45,
+          "lambda_range": 0.55,
+          "lambda_rate": 0.4,
+          "lambda_log_rate": 0.15,
+          "lambda_uniformity": 0.12,
+          "lambda_ri": 0.12,
+          "lambda_stress": 0.1,
+          "lambda_closure": 0.02,
+          "lambda_layer_state": 0.02,
+          "lambda_monotonic": 0.005,
+          "lambda_profile_smooth": 0.02,
+          "lambda_rate_residual": 0.012
+        },
+        "uniformity_consistency_tol": 5.0,
+        "uniformity_train_points_used": 61,
+        "uniformity_weight_mean": 0.9989702701568604,
+        "uniformity_weight_min": 0.9925278425216675,
+        "uniformity_weight_max": 0.9999845027923584,
+        "state_calibrator": {
+          "enabled": true,
+          "use_val": true,
+          "fit_count": 84,
+          "feature_count": 81,
+          "n_estimators": 700,
+          "max_depth": 3,
+          "mode": "direct",
+          "blend": 1.0,
+          "requested_targets": [
+            "Thickness",
+            "MAX",
+            "MIN",
+            "Deposition_Rate",
+            "Uniformity_Range",
+            "Uniformity_1sigma",
+            "RI",
+            "Stress"
+          ],
+          "fitted_targets": [
+            "Thickness",
+            "MAX",
+            "MIN",
+            "Deposition_Rate",
+            "Uniformity_Range",
+            "Uniformity_1sigma",
+            "RI",
+            "Stress"
+          ],
+          "rate_thickness_blend": 0.0,
+          "range_max_blend": 0.0
+        },
+        "uniformity_raw_xgb": {
+          "enabled": true,
+          "targets": [
+            "Uniformity_Range",
+            "Uniformity_1sigma"
+          ]
+        },
+        "feature_reference": {
+          "pressure": 8.0,
+          "o2": 1800.0,
+          "teos": 1280.0,
+          "he": 3000.0,
+          "time": 33.0,
+          "space": 8.0,
+          "temperature": 400.0,
+          "power": 980.0,
+          "total_flow": 6050.0
+        }
+      }
+    },
+    {
+      "method": "PINN20260517-KimLayered",
+      "run": 8,
+      "seed": 49,
+      "runtime_seconds": 45.10947799682617,
+      "run_started_at": "2026-05-22T15:47:03",
+      "run_finished_at": "2026-05-22T15:47:51",
+      "counts": {
+        "train": 62,
+        "val": 20,
+        "test": 25
+      },
+      "split_ratios": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "training": {
+        "best_val_thk_rmse": 881.5570678710938,
+        "best_val_score": 2.420371592048615,
+        "best_epoch": 389,
+        "trained_epochs": 479,
+        "seconds": 45.10947799682617,
+        "device": "cuda",
+        "num_input_features_seen": 8,
+        "num_physical_inputs_used": 8,
+        "use_loader_derived_features": false,
+        "radial_bins": 49,
+        "radial_modes": 4,
+        "layered_ai_strength": 0.2,
+        "uniformity_direct_blend": 0.5,
+        "loss_weights": {
+          "lambda_thickness": 3.0,
+          "lambda_log_thickness": 0.45,
+          "lambda_range": 0.55,
+          "lambda_rate": 0.4,
+          "lambda_log_rate": 0.15,
+          "lambda_uniformity": 0.12,
+          "lambda_ri": 0.12,
+          "lambda_stress": 0.1,
+          "lambda_closure": 0.02,
+          "lambda_layer_state": 0.02,
+          "lambda_monotonic": 0.005,
+          "lambda_profile_smooth": 0.02,
+          "lambda_rate_residual": 0.012
+        },
+        "uniformity_consistency_tol": 5.0,
+        "uniformity_train_points_used": 61,
+        "uniformity_weight_mean": 0.9883996248245239,
+        "uniformity_weight_min": 0.3517768979072571,
+        "uniformity_weight_max": 0.9999845027923584,
+        "state_calibrator": {
+          "enabled": true,
+          "use_val": true,
+          "fit_count": 82,
+          "feature_count": 81,
+          "n_estimators": 700,
+          "max_depth": 3,
+          "mode": "direct",
+          "blend": 1.0,
+          "requested_targets": [
+            "Thickness",
+            "MAX",
+            "MIN",
+            "Deposition_Rate",
+            "Uniformity_Range",
+            "Uniformity_1sigma",
+            "RI",
+            "Stress"
+          ],
+          "fitted_targets": [
+            "Thickness",
+            "MAX",
+            "MIN",
+            "Deposition_Rate",
+            "Uniformity_Range",
+            "Uniformity_1sigma",
+            "RI",
+            "Stress"
+          ],
+          "rate_thickness_blend": 0.0,
+          "range_max_blend": 0.0
+        },
+        "uniformity_raw_xgb": {
+          "enabled": true,
+          "targets": [
+            "Uniformity_Range",
+            "Uniformity_1sigma"
+          ]
+        },
+        "feature_reference": {
+          "pressure": 8.0,
+          "o2": 1800.0,
+          "teos": 1400.0,
+          "he": 3000.0,
+          "time": 33.0,
+          "space": 8.0,
+          "temperature": 400.0,
+          "power": 960.0,
+          "total_flow": 6250.0
+        }
+      }
+    },
+    {
+      "method": "PINN20260517-KimLayered",
+      "run": 9,
+      "seed": 50,
+      "runtime_seconds": 54.34628629684448,
+      "run_started_at": "2026-05-22T15:47:51",
+      "run_finished_at": "2026-05-22T15:48:48",
+      "counts": {
+        "train": 64,
+        "val": 20,
+        "test": 23
+      },
+      "split_ratios": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "training": {
+        "best_val_thk_rmse": 491.6024169921875,
+        "best_val_score": 1.370995588139677,
+        "best_epoch": 469,
+        "trained_epochs": 559,
+        "seconds": 54.34628629684448,
+        "device": "cuda",
+        "num_input_features_seen": 8,
+        "num_physical_inputs_used": 8,
+        "use_loader_derived_features": false,
+        "radial_bins": 49,
+        "radial_modes": 4,
+        "layered_ai_strength": 0.2,
+        "uniformity_direct_blend": 0.5,
+        "loss_weights": {
+          "lambda_thickness": 3.0,
+          "lambda_log_thickness": 0.45,
+          "lambda_range": 0.55,
+          "lambda_rate": 0.4,
+          "lambda_log_rate": 0.15,
+          "lambda_uniformity": 0.12,
+          "lambda_ri": 0.12,
+          "lambda_stress": 0.1,
+          "lambda_closure": 0.02,
+          "lambda_layer_state": 0.02,
+          "lambda_monotonic": 0.005,
+          "lambda_profile_smooth": 0.02,
+          "lambda_rate_residual": 0.012
+        },
+        "uniformity_consistency_tol": 5.0,
+        "uniformity_train_points_used": 64,
+        "uniformity_weight_mean": 0.9990266561508179,
+        "uniformity_weight_min": 0.9951820373535156,
+        "uniformity_weight_max": 1.0,
+        "state_calibrator": {
+          "enabled": true,
+          "use_val": true,
+          "fit_count": 84,
+          "feature_count": 81,
+          "n_estimators": 700,
+          "max_depth": 3,
+          "mode": "direct",
+          "blend": 1.0,
+          "requested_targets": [
+            "Thickness",
+            "MAX",
+            "MIN",
+            "Deposition_Rate",
+            "Uniformity_Range",
+            "Uniformity_1sigma",
+            "RI",
+            "Stress"
+          ],
+          "fitted_targets": [
+            "Thickness",
+            "MAX",
+            "MIN",
+            "Deposition_Rate",
+            "Uniformity_Range",
+            "Uniformity_1sigma",
+            "RI",
+            "Stress"
+          ],
+          "rate_thickness_blend": 0.0,
+          "range_max_blend": 0.0
+        },
+        "uniformity_raw_xgb": {
+          "enabled": true,
+          "targets": [
+            "Uniformity_Range",
+            "Uniformity_1sigma"
+          ]
+        },
+        "feature_reference": {
+          "pressure": 8.0,
+          "o2": 1800.0,
+          "teos": 1400.0,
+          "he": 3000.0,
+          "time": 33.0,
+          "space": 8.0,
+          "temperature": 400.0,
+          "power": 980.0,
+          "total_flow": 6200.0
+        }
+      }
+    },
+    {
+      "method": "PINN20260517-KimLayered",
+      "run": 10,
+      "seed": 51,
+      "runtime_seconds": 78.6284966468811,
+      "run_started_at": "2026-05-22T15:48:48",
+      "run_finished_at": "2026-05-22T15:50:10",
+      "counts": {
+        "train": 58,
+        "val": 27,
+        "test": 22
+      },
+      "split_ratios": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "training": {
+        "best_val_thk_rmse": 528.3217163085938,
+        "best_val_score": 1.285968103016779,
+        "best_epoch": 740,
+        "trained_epochs": 740,
+        "seconds": 78.6284966468811,
+        "device": "cuda",
+        "num_input_features_seen": 8,
+        "num_physical_inputs_used": 8,
+        "use_loader_derived_features": false,
+        "radial_bins": 49,
+        "radial_modes": 4,
+        "layered_ai_strength": 0.2,
+        "uniformity_direct_blend": 0.5,
+        "loss_weights": {
+          "lambda_thickness": 3.0,
+          "lambda_log_thickness": 0.45,
+          "lambda_range": 0.55,
+          "lambda_rate": 0.4,
+          "lambda_log_rate": 0.15,
+          "lambda_uniformity": 0.12,
+          "lambda_ri": 0.12,
+          "lambda_stress": 0.1,
+          "lambda_closure": 0.02,
+          "lambda_layer_state": 0.02,
+          "lambda_monotonic": 0.005,
+          "lambda_profile_smooth": 0.02,
+          "lambda_rate_residual": 0.012
+        },
+        "uniformity_consistency_tol": 5.0,
+        "uniformity_train_points_used": 57,
+        "uniformity_weight_mean": 0.9876182675361633,
+        "uniformity_weight_min": 0.3517768979072571,
+        "uniformity_weight_max": 1.0,
+        "state_calibrator": {
+          "enabled": true,
+          "use_val": true,
+          "fit_count": 85,
+          "feature_count": 81,
+          "n_estimators": 700,
+          "max_depth": 3,
+          "mode": "direct",
+          "blend": 1.0,
+          "requested_targets": [
+            "Thickness",
+            "MAX",
+            "MIN",
+            "Deposition_Rate",
+            "Uniformity_Range",
+            "Uniformity_1sigma",
+            "RI",
+            "Stress"
+          ],
+          "fitted_targets": [
+            "Thickness",
+            "MAX",
+            "MIN",
+            "Deposition_Rate",
+            "Uniformity_Range",
+            "Uniformity_1sigma",
+            "RI",
+            "Stress"
+          ],
+          "rate_thickness_blend": 0.0,
+          "range_max_blend": 0.0
+        },
+        "uniformity_raw_xgb": {
+          "enabled": true,
+          "targets": [
+            "Uniformity_Range",
+            "Uniformity_1sigma"
+          ]
+        },
+        "feature_reference": {
+          "pressure": 8.0,
+          "o2": 1800.0,
+          "teos": 1400.0,
+          "he": 3000.0,
+          "time": 33.0,
+          "space": 8.0,
+          "temperature": 400.0,
+          "power": 960.0,
+          "total_flow": 6250.0
+        }
+      }
+    }
+  ],
+  "test_averages": [
+    {
+      "target": "deposition_rate",
+      "MAE": "474.14 ± 217.48",
+      "RMSE": "676.67 ± 322.16",
+      "R2": "0.89 ± 0.10"
+    },
+    {
+      "target": "max_thickness",
+      "MAE": "346.35 ± 114.75",
+      "RMSE": "569.08 ± 201.82",
+      "R2": "0.92 ± 0.05"
+    },
+    {
+      "target": "min_thickness",
+      "MAE": "301.49 ± 108.87",
+      "RMSE": "494.08 ± 178.50",
+      "R2": "0.92 ± 0.06"
+    },
+    {
+      "target": "ri",
+      "MAE": "0.0030 ± 0.0009",
+      "RMSE": "0.0042 ± 0.0013",
+      "R2": "0.33 ± 0.25"
+    },
+    {
+      "target": "stress",
+      "MAE": "46.10 ± 8.61",
+      "RMSE": "63.22 ± 14.21",
+      "R2": "0.40 ± 0.20"
+    },
+    {
+      "target": "thickness",
+      "MAE": "284.94 ± 91.55",
+      "RMSE": "457.42 ± 140.23",
+      "R2": "0.94 ± 0.03"
+    },
+    {
+      "target": "uniformity_1sigma",
+      "MAE": "0.32 ± 0.07",
+      "RMSE": "0.46 ± 0.09",
+      "R2": "0.21 ± 0.34"
+    },
+    {
+      "target": "uniformity_range",
+      "MAE": "0.55 ± 0.11",
+      "RMSE": "0.82 ± 0.18",
+      "R2": "0.23 ± 0.35"
+    }
+  ]
+}
