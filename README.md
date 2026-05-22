@@ -28,3 +28,8 @@
 - 介绍: 基于KIM的方法对PECVD进行建模
 - 作者：HS
 - 流程图: ![](images/PINN20260512_HS.png)
+
+- ### 方法四：PINN20260522_KimLayered.py
+- 介绍: 基于 Kim 的 PECVD 沉积动力学思想，构建三层表面化学 PINN 模型，并通过关键 residual 约束前驱体通量、表面 OH 稳态和沉积速率，实现厚度、均匀性、RI 和 Stress 的物理一致性预测。
+- 作者：ZC
+- 流程图: ![](images/PINN20260522_KimLayered.png)
